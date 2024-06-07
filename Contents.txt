@@ -1,0 +1,93 @@
+Java-Object-Oriented Programming System.
+
+There are Two Data Types in Java.
+1.Primitive (int, char, byte, short, long, float, double, and boolean)
+2.Reference or Non-primitive (Array, Class, Interfaces, String, Enum)
+
+OOPs concepts-
+1.Object
+2.Class
+3.Inheritance
+4.Polymorphism
+5.Abstraction
+6.Encapsulation
+
+While we use Java we mainly deals with classes and Objects. Every operation or code is performed inside the class.
+
+Class:
+	Class is collection of Objects which shares common characteristics/ behavior and common properties/ attributes.It contains data members/instance variable 
+and Methods. It is a user defined blueprint.
+
+Object:
+	An object in Java is a basic unit of Object-Oriented Programming and represents real-life entities. 
+Objects are the instances of a class that are created to use the attributes and methods of a class.
+
+Method:
+	A method is a block of code which only runs when it is called. You can pass data, known as parameters, into a method. 
+Methods are used to perform certain actions, and they are also known as functions.
+
+Inheritance:
+	It is the mechanism in Java by which one class is allowed to inherit the features(fields and methods) of another class. 
+In Java, Inheritance means creating new classes based on existing ones. 
+
+Java Inheritance Types-
+1.Single Inheritance:
+	In single inheritance, subclasses inherit the features of one superclass.
+2.Multilevel Inheritance:
+	In Multilevel Inheritance, a derived class will be inheriting a base class, and as well as the derived class also acts as the base class for other classes.
+3.Hierarchical Inheritance:
+	In Hierarchical Inheritance, one class serves as a superclass (base class) for more than one subclass.
+4.Multiple Inheritance:
+	In Multiple inheritances, one class can have more than one superclass and inherit features from all parent classes.(Which can be achieved through Interfaces)
+5.Hybrid Inheritance:
+	It is a mix of two or more of the above types of inheritance.(Which can be achieved through Interfaces)
+
+Polymorphism:
+	The word polymorphism means having many forms. In simple words, we can define Java Polymorphism as the ability of a message to be displayed in more than one form.
+
+Types of Polymorphism:
+Compile-time Polymorphism:
+	It is also known as static polymorphism. This type of polymorphism is achieved by function overloading or operator overloading.
+Method Overloading-
+		When there are multiple functions with the same name but different parameters then these functions are said to be overloaded. 
+Functions can be overloaded by changes in the number of arguments or/and a change in the type of arguments.
+
+Runtime Polymorphism:
+	It is also known as Dynamic Method Dispatch. It is a process in which a function call to the overridden method is resolved at Runtime. 
+This type of polymorphism is achieved by Method Overriding.
+Method Overriding-
+	In Java, Overriding is a feature that allows a subclass or child class to provide a specific implementation of a method that is already provided by one of its super-classes or parent classes.
+
+Abstraction:
+	Abstraction in Java refers to hiding the implementation details of a code and exposing only the necessary information to the user.
+
+Encapsulation:
+	Encapsulation in Java refers to integrating data (variables) and code (methods) into a single unit.
+
+Keywords:
+Static:
+	The static keyword is used for a constant variable or a method that is the same for every instance of a class.
+Final:
+	The final keyword is a non-access modifier used for classes, attributes and methods, which makes them non-changeable (impossible to inherit or override).
+
+Access Modifiers:
+	 Access modifiers help to restrict the scope of a class, constructor, variable, method, or data member. It provides security, accessibility, etc to the user depending upon the access modifier used with the element.
+
+Types of Access Modifiers in Java
+There are four types of access modifiers available in Java: 
+1.Default – No keyword required
+2.Private
+3.Protected
+4.Public 
+
+1. Default Access Modifier:
+When no access modifier is specified for a class, method, or data member – It is said to be having the default access modifier by default.
+Having default access modifiers are accessible only within the same package.
+2. Private Access Modifier:
+The private access modifier is specified using the keyword private. 
+The methods or data members declared as private are accessible only within the class in which they are declared.
+3. Protected Access Modifier:
+The protected access modifier is specified using the keyword protected.
+The methods or data members declared as protected are accessible within the same package or subclasses in different packages.
+4. Public Access Modifier:
+The public access modifier is specified using the keyword public.There is no restriction on the scope of public data members.
